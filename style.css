@@ -1,0 +1,52 @@
+body{
+    display: block;
+    margin: 8px;
+}
+.container{
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+.header, .center{
+    display: block;
+    text-align:center;
+}
+.center{
+    width: 90%;
+    margin: auto;
+}
+.searchBar{
+    display: block;
+    background-color: #EEEEEE;
+    column-span: 3;
+}
+.text{
+    width: 303px;
+}
+.content{
+    display:flex;
+
+}
+.row1{
+    background-color:#7EE5DA;
+    width: 37%;
+    margin:0;
+    padding-top: 10px;
+
+}
+.row2{
+    background-color:#70CCC2;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 26%;
+    padding: 7px;
+    font-size: 14px;
+
+}
+.row3{
+    background-color: #62B3AA;
+    margin: 0;
+    width: 37%;
+    padding: auto;
+    font-size: 14px;
+}
